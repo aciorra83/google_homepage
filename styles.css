@@ -1,0 +1,41 @@
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+}
+
+.nav {
+    display: inline;
+    text-align: right;
+    padding: 15px;
+  }
+  
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #5f6368;
+}
+a:hover {
+    text-decoration: underline;
+}
+li {
+    display: inline;
+}
+
+
+
+/* Button */
+.sign-in {
+    background-color: rgb(96, 132, 240);
+    border: none;
+    border-radius: 2.5px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.sign-in:hover {
+    background-color: rgb(59, 93, 194);
+}
