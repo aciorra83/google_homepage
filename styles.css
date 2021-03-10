@@ -1,41 +1,80 @@
 /* Navigation */
 ul {
-    list-style-type: none;
-    margin-top: 0px;
-    padding: 0;
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0;
 }
 
 .nav {
-    display: inline;
-    text-align: right;
-    padding: 15px;
-  }
-  
+  display: inline;
+  text-align: right;
+  padding: 15px;
+}
 
 /* Links */
 a {
-    text-decoration: none;
-    color: #5f6368;
+  text-decoration: none;
+  color: #5f6368;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 li {
-    display: inline;
+  display: inline;
 }
-
-
 
 /* Button */
 .sign-in {
-    background-color: rgb(96, 132, 240);
-    border: none;
-    border-radius: 2.5px;
-    color: white;
-    text-decoration: none;
-
+  background-color: rgb(96, 132, 240);
+  border: none;
+  border-radius: 2.5px;
+  color: white;
+  text-decoration: none;
 }
 
 .sign-in:hover {
-    background-color: rgb(59, 93, 194);
+  background-color: rgb(59, 93, 194);
+}
+
+/* Main */
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 25%;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  border-radius: 24px;
+  padding: 5px 8px 0 16px;
+}
+
+/* Buttons */
+
+.buttons {
+  margin: 0 auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  padding: 5px;
+  margin: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: rgb(39, 38, 38);
+}
+
+.lucky {
+  padding: 5px;
+  margin: 11px;
+  border-radius: 5px;
+  outline: none;
+  border: rgb(39, 38, 38);
 }
